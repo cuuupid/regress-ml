@@ -22,5 +22,5 @@ graph.add_layer(input_layer)
 graph.add_layer(hidden_layer)
 graph.add_layer(output_layer)
 
-graph.train(training_data, loss_fn=sum_squared_error)
+graph.train(training_data, loss_fn=sum_squared_error, batch_size=2)
 graph.show()
